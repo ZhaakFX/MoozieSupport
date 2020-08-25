@@ -1,0 +1,52 @@
+{
+  "name": "mooziesupport",
+  "version": "1.0.0",
+  "description": "The Moozie Discord Bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "setup": "node setup.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Arnaud Lier",
+    "email": "contact@moozie.fr",
+    "url": "https://www.moozie.fr"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "axios": "^0.20.0",
+    "better-sqlite3": "^7.1.0",
+    "chalk": "^4.1.0",
+    "db": "^3.1.0",
+    "discord-anti-spam": "^2.4.1",
+    "discord.js": "^12.3.1",
+    "enmap": "^5.7.0",
+    "ffmpeg-static": "^4.2.2",
+    "fs": "0.0.1-security",
+    "get": "^1.4.0",
+    "ids": "^1.0.0",
+    "inquirer": "^7.3.0",
+    "moment": "^2.27.0",
+    "moment-duration-format": "^2.3.2",
+    "moment-timezone": "^0.5.31",
+    "node.js": "0.0.1-security",
+    "path": "^0.12.7",
+    "pterodactyl.js": "2.1.0",
+    "puppeteer": "^5.2.1",
+    "quick.db": "^7.1.1",
+    "snekfetch": "^4.0.4",
+    "whois": "^2.13.0",
+    "wikijs": "^6.0.1",
+    "wolfram-alpha-api": "https://products.wolframalpha.com/api/libraries/javascript/wolfram-alpha-api-1.0.0-rc.1.tgz",
+    "yt-search": "^2.0.1",
+    "ytdl-core": "^2.1.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0"
+  }
+}
